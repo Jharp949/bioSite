@@ -1,0 +1,124 @@
+/*
+font-family: 'Great Vibes', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Philosopher', sans-serif;
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #8B49F0;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+}
+
+nav {
+    
+}
+
+.logo {
+    list-style-type: none;
+    display: inline-block;
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 36px;
+    color: #fff;
+    margin-right: auto;
+    padding: 10px 10px;
+}
+
+h1 {
+    font-size: 36px;
+
+}
+
+h2 {
+    font-size: 32px;
+
+}
+
+h1, h2 {
+    font-family: 'Philosopher', sans-serif;
+}
+
+.menu_links {
+    list-style-type: none;
+}
+
+.menu_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#profile_pic {
+    height: 400px;
+    width: 230px;
+}
+
+li, a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+
+.profile_info {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.profile_text {
+    height: 200px;
+    width: 350px;
+    padding: 50px;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-top: 75px;
+    border-radius: 30px;
+}
+
+.profile_text h1, h2 {
+    background-color: #fff;
+}
+
+.intro {
+    align-content: center;
+    padding: 50px 150px 50px 150px;
+}
+
+.intro h1, p {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.img_links {
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.about_link img {
+    width: 200px;
+    height: 200px;
+}
+
+.hobbies_link img {
+    width: 200px;
+    height: 200px;
+}
+
+.caption {
+    border-radius: 50px;
+    
+}
