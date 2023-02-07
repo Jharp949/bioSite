@@ -68,10 +68,20 @@ li, a {
     font-size: 20px;
     text-decoration: none;
     padding: 20px 10px;
+    color: #fff;
+}
+
+a:hover {
+    color: #ee3ef8;
+}
+
+a:visited {
+    color: #ee3ef8;
 }
 
 .profile_info {
     display: flex;
+    margin: auto;
     padding: 50px;
     justify-content: center;
 }
@@ -79,11 +89,12 @@ li, a {
 .profile_text {
     height: 200px;
     width: 350px;
-    padding: 50px;
     background-color: #fff;
-    margin-left: 50px;
-    margin-top: 75px;
     border-radius: 30px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 50px;
+    padding: 40px;
 }
 
 .profile_text h1, h2 {
@@ -91,7 +102,7 @@ li, a {
 }
 
 .intro {
-    align-content: center;
+    text-align: center;
     padding: 50px 150px 50px 150px;
 }
 
@@ -101,11 +112,18 @@ li, a {
 }
 
 .img_links {
+    margin: auto;
+    padding: 10;
     display: flex;
-    padding: 50px;
-    justify-content: space-around;
-    align-items: center;
-    
+    justify-content: center;
+}
+
+.hobbies_link {
+    margin-left: 30px;
+}
+
+.about_link {
+    margin-right: 30px;
 }
 
 .about_link img {
@@ -119,6 +137,9 @@ li, a {
 }
 
 .caption {
+    padding: 10px;
     border-radius: 50px;
-    
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
