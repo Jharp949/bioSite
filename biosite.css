@@ -3,6 +3,8 @@ font-family: 'Great Vibes', cursive;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Philosopher', sans-serif;
 */
+
+/* Landing CSS*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -142,4 +144,47 @@ a:visited {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+/* CSS About */
+#container {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+#about {
+    background-color: #fff;
+    width: 200px;
+    height: fit-content;
+    padding: 8px 15px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+#job, #work {
+    width: 800px;
+    height: 400px;
+    margin: 40px;
+    margin-top: 75px;
+}
+
+#jobdesc, #workdesc {
+    margin: auto;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+#jobdesc h2, #workdesc h2 {
+    width: fit-content;
+    padding: 8px 15px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+#jobdesc p, #workdesc p {
+    width: 700px;
+    padding: 35px;
+    border-radius: 25px;
 }
