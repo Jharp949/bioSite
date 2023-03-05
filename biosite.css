@@ -22,10 +22,16 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: right;
+    background-color: #a436d9;
+    width: 100%;
 }
 
 nav {
-    
+    background-color: #a436d9;
+}
+
+a{
+    text-decoration: none;
 }
 
 .logo {
@@ -36,17 +42,11 @@ nav {
     color: #fff;
     margin-right: auto;
     padding: 10px 10px;
-}
-
-#toplink {
-    text-align: center;
-    margin: auto;
-    margin-top: 50px;
+    background-color: #a436d9;
 }
 
 h1 {
     font-size: 36px;
-
 }
 
 h2 {
@@ -64,7 +64,10 @@ h1, h2 {
 
 .menu_links li {
     display: inline-block;
-    padding: 0px 20px;
+}
+
+.profile_info {
+    margin-top: 100px;
 }
 
 #profile_pic {
@@ -72,19 +75,28 @@ h1, h2 {
     width: 230px;
 }
 
-li, a {
+nav ul {
+    background-color: #a436d9;
+}
+
+a:hover {
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.menu_links li, .menu_links a {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     text-decoration: none;
-    padding: 20px 10px;
+    padding: 20px;
+    background-color: #a436d9;
+}
+
+a:visited {
     color: #fff;
 }
 
 a:hover {
-    color: #ee3ef8;
-}
-
-a:visited {
     color: #ee3ef8;
 }
 
@@ -145,12 +157,21 @@ a:visited {
     height: 200px;
 }
 
+.about_link a, .hobbies_link a {
+background-color: #8B49F0;
+}
+
 .caption {
     padding: 10px;
     border-radius: 50px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+#toplink a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
 }
 
 /* CSS About */
@@ -197,17 +218,21 @@ a:visited {
 }
 
 #workexp li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
     color: #000;
     background-color: #fff;
     width: 300px;
+    height: 75px;
     text-align: center;
     margin: auto;
     list-style-type: none;
+    padding-top: 20px;
 }
 
 #workexp {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 
 /* CSS Hobbies */
@@ -286,4 +311,19 @@ a:visited {
     color: #fff;
     font-size: 1.25em;
     text-align: center;
+}
+
+footer {
+    background-color: #a436d9;
+    width: 100%;
+    height: 70px;
+    margin-top: 75px;
+}
+
+#toplink {
+    width: 100%;
+    background-color: #a436d9;
+    text-align: center;
+    height: auto;
+    padding-top: 20px;
 }
